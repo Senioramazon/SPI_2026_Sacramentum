@@ -29,13 +29,16 @@ Para ejecutar este proyecto, necesitas contar con:
 # 4.- Instalación y Configuración
 ## Paso 1: Base de Datos
 Ejecuta el script incluido en el archivo schema.sql en tu terminal de MySQL o Workbench para crear la estructura necesaria:
+<code>
 SOURCE path/to/schema.sql;
+</code>
 
 ## Paso 2: Configuración de Conexión
 En el archivo src/ConexionBD.java, asegúrate de que las credenciales coincidan con tu configuración local:
+<code>
 private static final String USER = "tu_usuario"; 
 private static final String PASSWORD = "tu_contraseña";
-
+</code>
 ## Paso 3: Ejecución
 * Agrega el conector de MySQL a las librerías de tu proyecto.
 * Compila y ejecuta la clase Main.java.
